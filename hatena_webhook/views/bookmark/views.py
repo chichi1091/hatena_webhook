@@ -1,9 +1,11 @@
 #-*- coding:utf-8 -*-
 import os
+import logging
 from rest_framework.response import Response
 from rest_framework.status import HTTP_200_OK, HTTP_400_BAD_REQUEST
 from rest_framework.views import APIView
 
+logger = logging.getLogger(__name__)
 
 class BookmarkView(APIView):
 
@@ -23,11 +25,11 @@ class BookmarkView(APIView):
         status = request.data["status"].value
 
         if status == "add":
-            print("[%s] %sさんが %s をブックマークしました".format(timestamp, username, title))
+            logger.info("[%s] %sさんが %s をブックマークしました".format(timestamp, username, title))
         elif status == "update":
-            print("[%s] %sさんが %s をブックマークを更新しました".format(timestamp, username, title))
+            logger.info("[%s] %sさんが %s をブックマークを更新しました".format(timestamp, username, title))
         elif status == "delete":
-            print("[%s] %sさんが %s をブックマークを削除しました".format(timestamp, username, title))
+            logger.info("[%s] %sさんが %s をブックマークを削除しました".format(timestamp, username, title))
         else:
             return Response(HTTP_400_BAD_REQUEST, "status parameter bad. {}".format(status))
 
