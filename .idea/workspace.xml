@@ -21,8 +21,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hatena_webhook/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#315#324#0" expanded="true" />
               </folding>
@@ -307,7 +307,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520163042185</updated>
-      <workItem from="1520163049746" duration="4153000" />
+      <workItem from="1520163049746" duration="4305000" />
     </task>
     <task id="LOCAL-00001" summary="new created bookmark API">
       <created>1520165528201</created>
@@ -344,11 +344,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520167391198</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="database setting update">
+      <created>1520167610970</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1520167610970</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4153000" />
+    <option name="totallyTimeSpent" value="4305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1612" y="190" width="1440" height="821" extended-state="0" />
@@ -397,7 +404,8 @@
     <MESSAGE value="requirements.txt created" />
     <MESSAGE value="heroku setting" />
     <MESSAGE value="logging setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="logging setting" />
+    <MESSAGE value="database setting update" />
+    <option name="LAST_COMMIT_MESSAGE" value="database setting update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -466,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hatena_webhook/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#315#324#0" expanded="true" />
           </folding>
