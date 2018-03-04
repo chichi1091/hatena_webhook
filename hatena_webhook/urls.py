@@ -19,5 +19,5 @@ from .views.bookmark import views as bookmark_views
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path(r'^hatena/bookmark/$', bookmark_views.BookmarkView.as_view())
+    path(r'hatena/bookmark/$', bookmark_views.BookmarkView.as_view())
 ]
