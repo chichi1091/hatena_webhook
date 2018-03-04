@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from .views.bookmark import views as bookmark_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path(r'^hatena/bookmark/$', bookmark_views.BookmarkView.as_view())
 ]
