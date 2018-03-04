@@ -45,8 +45,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hatena_webhook/views/bookmark/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="242">
+              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding>
                 <element signature="e#22#31#0" expanded="true" />
               </folding>
@@ -310,7 +310,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520163042185</updated>
-      <workItem from="1520163049746" duration="5297000" />
+      <workItem from="1520163049746" duration="5662000" />
     </task>
     <task id="LOCAL-00001" summary="new created bookmark API">
       <created>1520165528201</created>
@@ -382,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520168403547</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="認証解除">
+      <created>1520168756517</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1520168756517</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5297000" />
+    <option name="totallyTimeSpent" value="5662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1612" y="190" width="1440" height="821" extended-state="0" />
@@ -439,7 +446,8 @@
     <MESSAGE value="import add" />
     <MESSAGE value="urls update" />
     <MESSAGE value="psycopg2-binary install" />
-    <option name="LAST_COMMIT_MESSAGE" value="psycopg2-binary install" />
+    <MESSAGE value="認証解除" />
+    <option name="LAST_COMMIT_MESSAGE" value="認証解除" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -508,8 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hatena_webhook/views/bookmark/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="242">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
             <element signature="e#22#31#0" expanded="true" />
           </folding>

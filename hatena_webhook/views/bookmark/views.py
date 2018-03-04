@@ -15,17 +15,17 @@ class BookmarkView(APIView):
     def post(self, request, format=None):
         required_keys = ["key", "username", "title", "status", "timestamp"]
         for required_key in required_keys:
-            if not request.data.has_key(required_key):
+            if not request.data.get(required_key) or request.data.get(required_key) is None:
                 return Response(HTTP_400_BAD_REQUEST, "request parameter not found. {}".format(required_key))
 
-        key = request.data["key"].value
+        key = request.data.get("key")
         if key != os.environ['HATENA_KEY']:
             return Response(HTTP_400_BAD_REQUEST, "hatena key bad.")
 
-        username = request.data["username"].value
-        title = request.data["title"].value
-        timestamp = request.data["timestamp"].value
-        status = request.data["status"].value
+        username = request.data.get("username")
+        title = request.data.get("title")
+        timestamp = request.data.get("timestamp")
+        status = request.data.get("status")
 
         if status == "add":
             logger.info("[%s] %sさんが %s をブックマークしました".format(timestamp, username, title))
