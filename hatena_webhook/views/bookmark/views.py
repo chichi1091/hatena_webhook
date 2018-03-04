@@ -28,11 +28,11 @@ class BookmarkView(APIView):
         status = request.data.get("status")
 
         if status == "add":
-            logger.info("[%s] %sさんが %s をブックマークしました".format(timestamp, username, title))
+            logger.info("{0} {1}さんが {2} をブックマークしました".format(timestamp, username, title))
         elif status == "update":
-            logger.info("[%s] %sさんが %s をブックマークを更新しました".format(timestamp, username, title))
+            logger.info("[{0}] {1}さんが {2} をブックマークを更新しました".format(timestamp, username, title))
         elif status == "delete":
-            logger.info("[%s] %sさんが %s をブックマークを削除しました".format(timestamp, username, title))
+            logger.info("[{0}] {1}さんが {2} をブックマークを削除しました".format(timestamp, username, title))
         else:
             return Response(HTTP_400_BAD_REQUEST, "status parameter bad. {}".format(status))
 
